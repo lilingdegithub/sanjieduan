@@ -1,0 +1,51 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'D:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'D:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'i',
+1 verbose cli   'forever',
+1 verbose cli   '-g' ]
+2 info using npm@3.10.10
+3 info using node@v6.11.2
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readGlobalPackageData
+7 silly fetchPackageMetaData forever
+8 silly fetchNamedPackageData forever
+9 silly mapToRegistry name forever
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry https://registry.npmjs.org/
+12 silly mapToRegistry data Result {
+12 silly mapToRegistry   raw: 'forever',
+12 silly mapToRegistry   scope: null,
+12 silly mapToRegistry   escapedName: 'forever',
+12 silly mapToRegistry   name: 'forever',
+12 silly mapToRegistry   rawSpec: '',
+12 silly mapToRegistry   spec: 'latest',
+12 silly mapToRegistry   type: 'tag' }
+13 silly mapToRegistry uri https://registry.npmjs.org/forever
+14 verbose request uri https://registry.npmjs.org/forever
+15 verbose request no auth needed
+16 info attempt registry request try #1 at 16:53:17
+17 verbose request id 4f8077d6251c2719
+18 http request GET https://registry.npmjs.org/forever
+19 verbose stack Error: kill ENOSYS
+19 verbose stack     at exports._errnoException (util.js:1020:11)
+19 verbose stack     at process.kill (internal/process.js:190:13)
+19 verbose stack     at process.listener (D:\Program Files\nodejs\node_modules\npm\node_modules\npmlog\node_modules\gauge\node_modules\signal-exit\index.js:86:15)
+19 verbose stack     at emitNone (events.js:91:20)
+19 verbose stack     at process.emit (events.js:185:7)
+19 verbose stack     at processEmit (D:\Program Files\nodejs\node_modules\npm\node_modules\npmlog\node_modules\gauge\node_modules\signal-exit\index.js:146:32)
+19 verbose stack     at processEmit (D:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\node_modules\npmlog\node_modules\gauge\node_modules\signal-exit\index.js:146:32)
+19 verbose stack     at Signal.wrap.onsignal (internal/process.js:217:44)
+20 verbose cwd E:\千峰培训课件\三阶段\workspace\node\day1
+21 error Windows_NT 6.1.7600
+22 error argv "D:\\Program Files\\nodejs\\node.exe" "D:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "i" "forever" "-g"
+23 error node v6.11.2
+24 error npm  v3.10.10
+25 error code ENOSYS
+26 error errno ENOSYS
+27 error syscall kill
+28 error kill ENOSYS
+29 error If you need help, you may report this error at:
+29 error     <https://github.com/npm/npm/issues>
+30 verbose exit [ 1, true ]

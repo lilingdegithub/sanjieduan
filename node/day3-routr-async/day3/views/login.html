@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+    .hide{
+        display: none;
+    }
+    </style>
+</head>
+<body>
+    <h1>登录 login</h1>
+    <div class="{infoClass}">
+        <p>用户信息:</p>
+        <p>用户名:{username}</p>
+        <p>密码:{password}</p>
+    </div>
+    <form action="/login" method="post" class="{formClass}">
+        <label for="username">
+            <input type="text" id="username" name="username" placeholder="请输入用户名">
+        </label>
+        <label for="password">
+            <input type="password" id="password" name="password" placeholder="请输入密码">
+        </label>
+        <input type="submit" value="登录" >
+    </form>
+</body>
+</html>
